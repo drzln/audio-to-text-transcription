@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "audio-to-text-transcription"
+version = "0.1.0"
+description = ""
+authors = ["luis <ldesiqueira@pinger.com>"]
+readme = "README.md"
+packages = [{include = "audio_to_text_transcription"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
